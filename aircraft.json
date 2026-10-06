@@ -1,0 +1,1570 @@
+{
+  "game": "ACE COMBAT 8: WINGS OF THEVE",
+  "scope": "playable aircraft only",
+  "compiled": "2026-10-06",
+  "sources": [
+    "https://acecombat.wiki.gg/wiki/Ace_Combat_8:_Wings_of_Theve/Aircraft",
+    "https://al-gest.com/acecombat8/acecombat8-aircraft",
+    "https://www.reddit.com/r/acecombat/comments/1wq6t3v/minor_spoilers_full_aircraft_roster_confirmed_so"
+  ],
+  "field_notes": {
+    "mrp": "首次解鎖價格。null 表示不是用 MRP 買第一架（初始機、預購獎勵、Ace Pass，或任務後自動獲得第一架）。",
+    "repurchase_mrp": "再買同一機種給僚機的價格。Wiki 有寫的用 Wiki；Wiki 沒寫但首購價已知的，依 1/8 規則計算，並在該機的 notes 標明。",
+    "gun_ammo": "Elite 難度的機炮彈藥量。gun_infinite_on 列出的難度下為無限。",
+    "special_weapons.unlock_mrp": "null 表示隨機體附帶，不再另計 MRP。"
+  },
+  "cross_check": {
+    "reddit": "討論串頁面要登入，改以 AC8aircraft_reddit.csv 比對。該表沒有機炮彈藥、FLR、追加購買價。",
+    "agreed": "CSV 有填的分類、首購價、MSL、特殊武器名稱與彈藥、解鎖價、BODY/ARMS/MISC，除待確認.md 列出的項目外與本檔一致。Wiki 與 AlGest 的其餘差異仍寫在各機 notes。"
+  },
+  "aircraft": [
+    {
+      "name": "F-14A Tomcat",
+      "category": "fighter",
+      "category_zh": "戰鬥機",
+      "unlock": {
+        "type": "preorder",
+        "summary_zh": "預購獎勵（實體版早期購入特典／下載版預購特典）"
+      },
+      "mrp": null,
+      "repurchase_mrp": null,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 118,
+      "flr": 6,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "HVAA",
+          "ammo": 18,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "SAAM",
+          "ammo": 22,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP3",
+          "name": "UGB",
+          "ammo": 18,
+          "unlock_mrp": null
+        }
+      ],
+      "slots": {
+        "body": 3,
+        "arms": 4,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/F-14A Tomcat.jpg"
+    },
+    {
+      "name": "F-14D Super Tomcat",
+      "category": "fighter",
+      "category_zh": "戰鬥機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 90000,
+      "repurchase_mrp": 11250,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 122,
+      "flr": 6,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "LAAM",
+          "ammo": 22,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "SAAM",
+          "ammo": 22,
+          "unlock_mrp": 9000
+        },
+        {
+          "slot": "SP3",
+          "name": "GPB",
+          "ammo": 12,
+          "unlock_mrp": 9000
+        }
+      ],
+      "slots": {
+        "body": 2,
+        "arms": 6,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/F-14D Super Tomcat.jpg"
+    },
+    {
+      "name": "F-15C Eagle",
+      "category": "fighter",
+      "category_zh": "戰鬥機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 240000,
+      "repurchase_mrp": 30000,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 142,
+      "flr": 4,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "4AAM",
+          "ammo": 28,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "HCAA",
+          "ammo": 30,
+          "unlock_mrp": 24000
+        },
+        {
+          "slot": "SP3",
+          "name": "SASM",
+          "ammo": 20,
+          "unlock_mrp": 24000
+        }
+      ],
+      "slots": {
+        "body": 5,
+        "arms": 5,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/F-15C Eagle.jpg"
+    },
+    {
+      "name": "F-15J Eagle",
+      "category": "fighter",
+      "category_zh": "戰鬥機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 240000,
+      "repurchase_mrp": 30000,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 142,
+      "flr": 4,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "HPAA",
+          "ammo": 26,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "HCAA",
+          "ammo": 30,
+          "unlock_mrp": 24000
+        },
+        {
+          "slot": "SP3",
+          "name": "UGB",
+          "ammo": 28,
+          "unlock_mrp": 24000
+        }
+      ],
+      "slots": {
+        "body": 4,
+        "arms": 6,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/F-15J Eagle.jpg"
+    },
+    {
+      "name": "F-16C Fighting Falcon",
+      "category": "fighter",
+      "category_zh": "戰鬥機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 180000,
+      "repurchase_mrp": 22500,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 136,
+      "flr": 6,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "2AAM",
+          "ammo": 26,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "QAAM",
+          "ammo": 20,
+          "unlock_mrp": 18000
+        },
+        {
+          "slot": "SP3",
+          "name": "LAGM",
+          "ammo": 22,
+          "unlock_mrp": 18000
+        }
+      ],
+      "slots": {
+        "body": 4,
+        "arms": 5,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/F-16C Fighting Falcon.jpg"
+    },
+    {
+      "name": "F-22A Raptor",
+      "category": "fighter",
+      "category_zh": "戰鬥機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 550000,
+      "repurchase_mrp": 68750,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 144,
+      "flr": 4,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "QAAM",
+          "ammo": 24,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "4AAM",
+          "ammo": 32,
+          "unlock_mrp": 55000
+        },
+        {
+          "slot": "SP3",
+          "name": "XSDB",
+          "ammo": 32,
+          "unlock_mrp": 55000
+        }
+      ],
+      "slots": {
+        "body": 5,
+        "arms": 7,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/F-22A Raptor.jpg"
+    },
+    {
+      "name": "FA-36 Game",
+      "category": "fighter",
+      "category_zh": "戰鬥機",
+      "unlock": {
+        "type": "post_campaign",
+        "summary_zh": "通關劇情模式後加入至 AIRCRAFT TREE"
+      },
+      "mrp": 750000,
+      "repurchase_mrp": 93750,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 144,
+      "flr": 2,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "SASM",
+          "ammo": 18,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "HPAA",
+          "ammo": 18,
+          "unlock_mrp": 75000
+        },
+        {
+          "slot": "SP3",
+          "name": "SOD",
+          "ammo": 18,
+          "unlock_mrp": 75000
+        }
+      ],
+      "slots": {
+        "body": 5,
+        "arms": 7,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/FA-36 Game.jpg"
+    },
+    {
+      "name": "MiG-21bis Fishbed",
+      "category": "fighter",
+      "category_zh": "戰鬥機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 25000,
+      "repurchase_mrp": 3125,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 116,
+      "flr": 8,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "SASM",
+          "ammo": 14,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "QAAM",
+          "ammo": 14,
+          "unlock_mrp": 2500
+        },
+        {
+          "slot": "SP3",
+          "name": "MGP",
+          "ammo": 2400,
+          "unlock_mrp": 2500
+        }
+      ],
+      "slots": {
+        "body": 3,
+        "arms": 4,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/MiG-21bis Fishbed.jpg"
+    },
+    {
+      "name": "MiG-29A Fulcrum",
+      "category": "fighter",
+      "category_zh": "戰鬥機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 130000,
+      "repurchase_mrp": 16250,
+      "gun_ammo": 800,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 128,
+      "flr": 6,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "HCAA",
+          "ammo": 26,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "HPAA",
+          "ammo": 22,
+          "unlock_mrp": 13000
+        },
+        {
+          "slot": "SP3",
+          "name": "LAGM",
+          "ammo": 22,
+          "unlock_mrp": 13000
+        }
+      ],
+      "slots": {
+        "body": 4,
+        "arms": 5,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/MiG-29A Fulcrum.png",
+      "notes": [
+        "追加購買價 Wiki 沒有直接寫，依各機頁共通的「再買為首購價 1/8」算出。"
+      ]
+    },
+    {
+      "name": "MiG-31B Foxhound",
+      "category": "fighter",
+      "category_zh": "戰鬥機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 130000,
+      "repurchase_mrp": 16250,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 132,
+      "flr": 6,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "LAAM",
+          "ammo": 22,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "SAAM",
+          "ammo": 22,
+          "unlock_mrp": 13000
+        },
+        {
+          "slot": "SP3",
+          "name": "QAAM",
+          "ammo": 18,
+          "unlock_mrp": 13000
+        }
+      ],
+      "slots": {
+        "body": 5,
+        "arms": 4,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/MiG-31B Foxhound.jpg"
+    },
+    {
+      "name": "Su-57 Felon",
+      "category": "fighter",
+      "category_zh": "戰鬥機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 550000,
+      "repurchase_mrp": 68750,
+      "gun_ammo": 800,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 144,
+      "flr": 4,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "QAAM",
+          "ammo": 24,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "HCAA",
+          "ammo": 36,
+          "unlock_mrp": 55000
+        },
+        {
+          "slot": "SP3",
+          "name": "LACM",
+          "ammo": 20,
+          "unlock_mrp": 55000
+        }
+      ],
+      "slots": {
+        "body": 6,
+        "arms": 6,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/Su-57 Felon.jpg"
+    },
+    {
+      "name": "Typhoon",
+      "category": "fighter",
+      "category_zh": "戰鬥機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 350000,
+      "repurchase_mrp": 43750,
+      "gun_ammo": 800,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 148,
+      "flr": 4,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "4AAM",
+          "ammo": 28,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "LAAM",
+          "ammo": 30,
+          "unlock_mrp": 35000
+        },
+        {
+          "slot": "SP3",
+          "name": "8AGM",
+          "ammo": 32,
+          "unlock_mrp": 35000
+        }
+      ],
+      "slots": {
+        "body": 3,
+        "arms": 7,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/Typhoon.jpg",
+      "notes": [
+        "追加購買價 Wiki 沒有直接寫，依各機頁共通的「再買為首購價 1/8」算出。"
+      ]
+    },
+    {
+      "name": "F-35C Lightning II",
+      "category": "multirole",
+      "category_zh": "多用途機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 550000,
+      "repurchase_mrp": 68750,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 150,
+      "flr": 4,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "LACM",
+          "ammo": 20,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "HCAA",
+          "ammo": 36,
+          "unlock_mrp": 55000
+        },
+        {
+          "slot": "SP3",
+          "name": "8AGM",
+          "ammo": 32,
+          "unlock_mrp": 55000
+        }
+      ],
+      "slots": {
+        "body": 5,
+        "arms": 7,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/F-35C Lightning II.jpg"
+    },
+    {
+      "name": "F-4E Phantom II",
+      "category": "multirole",
+      "category_zh": "多用途機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 25000,
+      "repurchase_mrp": 3125,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 120,
+      "flr": 8,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "HVAA",
+          "ammo": 18,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "UGB",
+          "ammo": 22,
+          "unlock_mrp": 2500
+        },
+        {
+          "slot": "SP3",
+          "name": "MGP",
+          "ammo": 2400,
+          "unlock_mrp": 2500
+        }
+      ],
+      "slots": {
+        "body": 2,
+        "arms": 5,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/F-4E Phantom II.jpg"
+    },
+    {
+      "name": "F/A-18C Hornet",
+      "category": "multirole",
+      "category_zh": "多用途機",
+      "unlock": {
+        "type": "default",
+        "summary_zh": "初始機，遊戲開始即可使用"
+      },
+      "mrp": null,
+      "repurchase_mrp": null,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 120,
+      "flr": 6,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "4AAM",
+          "ammo": 20,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "UGB",
+          "ammo": 22,
+          "unlock_mrp": 2500
+        },
+        {
+          "slot": "SP3",
+          "name": "LASM",
+          "ammo": 10,
+          "unlock_mrp": 3000
+        }
+      ],
+      "slots": {
+        "body": 3,
+        "arms": 4,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/F-A-18C Hornet.jpg"
+    },
+    {
+      "name": "F/A-18E Super Hornet",
+      "category": "multirole",
+      "category_zh": "多用途機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 240000,
+      "repurchase_mrp": 30000,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 142,
+      "flr": 4,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "6AAM",
+          "ammo": 30,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "SOD",
+          "ammo": 26,
+          "unlock_mrp": 24000
+        },
+        {
+          "slot": "SP3",
+          "name": "QAAM",
+          "ammo": 20,
+          "unlock_mrp": 24000
+        }
+      ],
+      "slots": {
+        "body": 5,
+        "arms": 5,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/F-A-18E Super Hornet.webp"
+    },
+    {
+      "name": "F/A-18F Super Hornet",
+      "category": "multirole",
+      "category_zh": "多用途機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 240000,
+      "repurchase_mrp": 30000,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 142,
+      "flr": 4,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "LASM",
+          "ammo": 14,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "4AAM",
+          "ammo": 28,
+          "unlock_mrp": 24000
+        },
+        {
+          "slot": "SP3",
+          "name": "GPB",
+          "ammo": 18,
+          "unlock_mrp": 24000
+        }
+      ],
+      "slots": {
+        "body": 3,
+        "arms": 7,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/F-A-18F Super Hornet.jpg"
+    },
+    {
+      "name": "Gripen E",
+      "category": "multirole",
+      "category_zh": "多用途機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 240000,
+      "repurchase_mrp": 30000,
+      "gun_ammo": 800,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 140,
+      "flr": 4,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "SASM",
+          "ammo": 20,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "6AGM",
+          "ammo": 24,
+          "unlock_mrp": 24000
+        },
+        {
+          "slot": "SP3",
+          "name": "LAAM",
+          "ammo": 26,
+          "unlock_mrp": 24000
+        }
+      ],
+      "slots": {
+        "body": 4,
+        "arms": 6,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/Gripen E.jpg"
+    },
+    {
+      "name": "Mirage 2000-5",
+      "category": "multirole",
+      "category_zh": "多用途機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 130000,
+      "repurchase_mrp": 16250,
+      "gun_ammo": 800,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 128,
+      "flr": 6,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "UGB",
+          "ammo": 26,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "4AAM",
+          "ammo": 24,
+          "unlock_mrp": 13000
+        },
+        {
+          "slot": "SP3",
+          "name": "LASM",
+          "ammo": 12,
+          "unlock_mrp": 13000
+        }
+      ],
+      "slots": {
+        "body": 3,
+        "arms": 6,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/Mirage 2000-5.jpg",
+      "notes": [
+        "機炮彈藥量先暫定 800。Wiki 與 AlGest 都沒有數字。"
+      ]
+    },
+    {
+      "name": "Rafale M",
+      "category": "multirole",
+      "category_zh": "多用途機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 350000,
+      "repurchase_mrp": 43750,
+      "gun_ammo": 800,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 148,
+      "flr": 4,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "HCAA",
+          "ammo": 34,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "LACM",
+          "ammo": 18,
+          "unlock_mrp": 35000
+        },
+        {
+          "slot": "SP3",
+          "name": "LAAM",
+          "ammo": 30,
+          "unlock_mrp": 35000
+        }
+      ],
+      "slots": {
+        "body": 3,
+        "arms": 7,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/Rafale M.jpg"
+    },
+    {
+      "name": "Su-33 Flanker-D",
+      "category": "multirole",
+      "category_zh": "多用途機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 180000,
+      "repurchase_mrp": 22500,
+      "gun_ammo": 800,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 136,
+      "flr": 6,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "QAAM",
+          "ammo": 20,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "RKT",
+          "ammo": 26,
+          "unlock_mrp": 18000
+        },
+        {
+          "slot": "SP3",
+          "name": "HVAA",
+          "ammo": 26,
+          "unlock_mrp": 18000
+        }
+      ],
+      "slots": {
+        "body": 3,
+        "arms": 6,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/Su-33 Flanker-D.jpg",
+      "notes": [
+        "追加購買價 Wiki 沒有直接寫，依各機頁共通的「再買為首購價 1/8」算出。"
+      ]
+    },
+    {
+      "name": "Su-35S Flanker-E",
+      "category": "multirole",
+      "category_zh": "多用途機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 350000,
+      "repurchase_mrp": 43750,
+      "gun_ammo": 800,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 146,
+      "flr": 4,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "6AAM",
+          "ammo": 30,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "LAGM",
+          "ammo": 26,
+          "unlock_mrp": 35000
+        },
+        {
+          "slot": "SP3",
+          "name": "HVAA",
+          "ammo": 30,
+          "unlock_mrp": 35000
+        }
+      ],
+      "slots": {
+        "body": 5,
+        "arms": 5,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/Su-35S Flanker-E.jpg"
+    },
+    {
+      "name": "Su-47 Berkut",
+      "category": "multirole",
+      "category_zh": "多用途機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 180000,
+      "repurchase_mrp": 22500,
+      "gun_ammo": 800,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 134,
+      "flr": 6,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "SAAM",
+          "ammo": 26,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "UGB",
+          "ammo": 26,
+          "unlock_mrp": 18000
+        },
+        {
+          "slot": "SP3",
+          "name": "HPAA",
+          "ammo": 26,
+          "unlock_mrp": 18000
+        }
+      ],
+      "slots": {
+        "body": 5,
+        "arms": 4,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/Su-47 Berkut.jpg"
+    },
+    {
+      "name": "X-40 Nightmare",
+      "category": "multirole",
+      "category_zh": "多用途機",
+      "unlock": {
+        "type": "post_campaign",
+        "summary_zh": "通關劇情模式後加入至 AIRCRAFT TREE"
+      },
+      "mrp": 1000000,
+      "repurchase_mrp": 125000,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 154,
+      "flr": 3,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "UAVT",
+          "ammo": 16,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "EMLB",
+          "ammo": 18,
+          "unlock_mrp": 100000
+        },
+        {
+          "slot": "SP3",
+          "name": "QAAM",
+          "ammo": 18,
+          "unlock_mrp": 100000
+        }
+      ],
+      "slots": {
+        "body": 5,
+        "arms": 7,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/X-40 Nightmare.png"
+    },
+    {
+      "name": "ADFX-02 Morgan -Pixy-",
+      "category": "multirole",
+      "category_zh": "多用途機",
+      "unlock": {
+        "type": "ace_pass",
+        "summary_zh": "購買 Ace Combat Online 第 1 季 Premium Ace Pass；該季結束後也可單獨購買此 DLC"
+      },
+      "mrp": null,
+      "repurchase_mrp": null,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 148,
+      "flr": 4,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "MPBM",
+          "ammo": 8,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "TLS",
+          "ammo": 16,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP3",
+          "name": "ECM",
+          "ammo": 8,
+          "unlock_mrp": null
+        }
+      ],
+      "slots": {
+        "body": 5,
+        "arms": 7,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/ADFX-02 Morgan -Pixy-.jpg",
+      "notes": [
+        "機炮彈藥量只有 Wiki 寫 2,400，尚未對過遊戲。"
+      ]
+    },
+    {
+      "name": "A-10C Thunderbolt II",
+      "category": "attacker",
+      "category_zh": "攻擊機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 180000,
+      "repurchase_mrp": 22500,
+      "gun_ammo": 3600,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 136,
+      "flr": 8,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "4AGM",
+          "ammo": 28,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "UGB",
+          "ammo": 28,
+          "unlock_mrp": 18000
+        },
+        {
+          "slot": "SP3",
+          "name": "RKT",
+          "ammo": 26,
+          "unlock_mrp": 18000
+        }
+      ],
+      "slots": {
+        "body": 5,
+        "arms": 4,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/A-10C Thunderbolt II.jpg"
+    },
+    {
+      "name": "A-6E Intruder",
+      "category": "attacker",
+      "category_zh": "攻擊機",
+      "unlock": {
+        "type": "mission",
+        "summary_zh": "任務 14「Two on the Run」後加入 AIRCRAFT TREE"
+      },
+      "mrp": null,
+      "repurchase_mrp": 3125,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 120,
+      "flr": 10,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "LAGM",
+          "ammo": 18,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "LASM",
+          "ammo": 10,
+          "unlock_mrp": 2500
+        },
+        {
+          "slot": "SP3",
+          "name": "UGB",
+          "ammo": 24,
+          "unlock_mrp": 2500
+        }
+      ],
+      "slots": {
+        "body": 4,
+        "arms": 3,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/A-6E Intruder.jpg"
+    },
+    {
+      "name": "F-15E Strike Eagle",
+      "category": "attacker",
+      "category_zh": "攻擊機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 350000,
+      "repurchase_mrp": 43750,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 148,
+      "flr": 6,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "XSDB",
+          "ammo": 32,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "SFFS",
+          "ammo": 28,
+          "unlock_mrp": 35000
+        },
+        {
+          "slot": "SP3",
+          "name": "HCAA",
+          "ammo": 34,
+          "unlock_mrp": 35000
+        }
+      ],
+      "slots": {
+        "body": 3,
+        "arms": 7,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/F-15E Strike Eagle.jpg"
+    },
+    {
+      "name": "F-2A",
+      "category": "attacker",
+      "category_zh": "攻擊機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 130000,
+      "repurchase_mrp": 16250,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 130,
+      "flr": 8,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "LASM",
+          "ammo": 12,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "UGB",
+          "ammo": 26,
+          "unlock_mrp": 13000
+        },
+        {
+          "slot": "SP3",
+          "name": "HVAA",
+          "ammo": 22,
+          "unlock_mrp": 13000
+        }
+      ],
+      "slots": {
+        "body": 4,
+        "arms": 5,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/F-2A.jpg",
+      "notes": [
+        "追加購買價 Wiki 沒有直接寫，依各機頁共通的「再買為首購價 1/8」算出。"
+      ]
+    },
+    {
+      "name": "Su-25SM Frogfoot",
+      "category": "attacker",
+      "category_zh": "攻擊機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 90000,
+      "repurchase_mrp": 11250,
+      "gun_ammo": 3600,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 124,
+      "flr": 8,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "4AGM",
+          "ammo": 24,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "SFFS",
+          "ammo": 22,
+          "unlock_mrp": 9000
+        },
+        {
+          "slot": "SP3",
+          "name": "MGP",
+          "ammo": 3600,
+          "unlock_mrp": 9000
+        }
+      ],
+      "slots": {
+        "body": 2,
+        "arms": 6,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/Su-25SM Frogfoot.jpg"
+    },
+    {
+      "name": "Su-34 Fullback",
+      "category": "attacker",
+      "category_zh": "攻擊機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 240000,
+      "repurchase_mrp": 30000,
+      "gun_ammo": 800,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 144,
+      "flr": 6,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "4AGM",
+          "ammo": 28,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "UGBL",
+          "ammo": 22,
+          "unlock_mrp": 24000
+        },
+        {
+          "slot": "SP3",
+          "name": "HCAA",
+          "ammo": 30,
+          "unlock_mrp": 24000
+        }
+      ],
+      "slots": {
+        "body": 4,
+        "arms": 6,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/Su-34 Fullback.jpg"
+    },
+    {
+      "name": "EA-18G Growler",
+      "category": "electronic_warfare",
+      "category_zh": "電子戰機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 350000,
+      "repurchase_mrp": 43750,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 140,
+      "flr": 4,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "ESM",
+          "ammo": 18,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "2AAM",
+          "ammo": 30,
+          "unlock_mrp": 35000
+        },
+        {
+          "slot": "SP3",
+          "name": "ECM",
+          "ammo": 14,
+          "unlock_mrp": 35000
+        }
+      ],
+      "slots": {
+        "body": 4,
+        "arms": 6,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/EA-18G Growler.jpg"
+    },
+    {
+      "name": "EA-36 Barricader",
+      "category": "electronic_warfare",
+      "category_zh": "電子戰機",
+      "unlock": {
+        "type": "post_campaign",
+        "summary_zh": "通關劇情模式後加入至 AIRCRAFT TREE"
+      },
+      "mrp": 750000,
+      "repurchase_mrp": 93750,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 144,
+      "flr": 3,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "IEWS",
+          "ammo": 18,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "4AAM",
+          "ammo": 20,
+          "unlock_mrp": 75000
+        },
+        {
+          "slot": "SP3",
+          "name": "XSDB",
+          "ammo": 20,
+          "unlock_mrp": 75000
+        }
+      ],
+      "slots": {
+        "body": 5,
+        "arms": 7,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/EA-36 Barricader.png"
+    },
+    {
+      "name": "EA-6B Prowler",
+      "category": "electronic_warfare",
+      "category_zh": "電子戰機",
+      "unlock": {
+        "type": "aircraft_tree",
+        "summary_zh": "於 AIRCRAFT TREE 解鎖"
+      },
+      "mrp": 90000,
+      "repurchase_mrp": 11250,
+      "gun_ammo": 2400,
+      "gun_infinite_on": [
+        "Rookie",
+        "Pilot",
+        "Veteran"
+      ],
+      "msl_ammo": 120,
+      "flr": 6,
+      "special_weapons": [
+        {
+          "slot": "SP1",
+          "name": "ECM",
+          "ammo": 18,
+          "unlock_mrp": null
+        },
+        {
+          "slot": "SP2",
+          "name": "LAGM",
+          "ammo": 18,
+          "unlock_mrp": 9000
+        },
+        {
+          "slot": "SP3",
+          "name": "ESM",
+          "ammo": 18,
+          "unlock_mrp": 9000
+        }
+      ],
+      "slots": {
+        "body": 4,
+        "arms": 4,
+        "misc": 3
+      },
+      "image": "AC8_aircraft_playable_1280/EA-6B Prowler.jpg"
+    }
+  ]
+}
