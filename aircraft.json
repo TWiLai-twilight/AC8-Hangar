@@ -1,7 +1,7 @@
 {
   "game": "ACE COMBAT 8: WINGS OF THEVE",
   "scope": "playable aircraft only",
-  "compiled": "2026-10-06",
+  "compiled": "2026-10-08",
   "sources": [
     "https://acecombat.wiki.gg/wiki/Ace_Combat_8:_Wings_of_Theve/Aircraft",
     "https://al-gest.com/acecombat8/acecombat8-aircraft",
@@ -15,7 +15,7 @@
   },
   "cross_check": {
     "reddit": "討論串頁面要登入，改以 AC8aircraft_reddit.csv 比對。該表沒有機炮彈藥、FLR、追加購買價。",
-    "agreed": "CSV 有填的分類、首購價、MSL、特殊武器名稱與彈藥、解鎖價、BODY/ARMS/MISC，除待確認.md 列出的項目外與本檔一致。Wiki 與 AlGest 的其餘差異仍寫在各機 notes。"
+    "agreed": "CSV 有填的分類、首購價、MSL、特殊武器名稱與彈藥、解鎖價、BODY/ARMS/MISC 與本檔一致。Wiki 與 AlGest 的其餘差異仍寫在各機 notes。機炮等缺口已對過遊戲的項目見待確認.md「不必再查」。"
   },
   "aircraft": [
     {
@@ -877,10 +877,7 @@
         "arms": 6,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/Mirage 2000-5.jpg",
-      "notes": [
-        "機炮彈藥量先暫定 800。Wiki 與 AlGest 都沒有數字。"
-      ]
+      "image": "AC8_aircraft_playable_1280/Mirage 2000-5.jpg"
     },
     {
       "name": "Rafale M",
@@ -1153,10 +1150,7 @@
         "arms": 7,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/ADFX-02 Morgan -Pixy-.jpg",
-      "notes": [
-        "機炮彈藥量只有 Wiki 寫 2,400，尚未對過遊戲。"
-      ]
+      "image": "AC8_aircraft_playable_1280/ADFX-02 Morgan -Pixy-.jpg"
     },
     {
       "name": "A-10C Thunderbolt II",
