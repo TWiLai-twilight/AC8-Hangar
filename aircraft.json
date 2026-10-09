@@ -1,7 +1,7 @@
 {
   "game": "ACE COMBAT 8: WINGS OF THEVE",
   "scope": "playable aircraft only",
-  "compiled": "2026-10-08",
+  "compiled": "2026-10-09",
   "sources": [
     "https://acecombat.wiki.gg/wiki/Ace_Combat_8:_Wings_of_Theve/Aircraft",
     "https://al-gest.com/acecombat8/acecombat8-aircraft",
@@ -11,7 +11,8 @@
     "mrp": "首次解鎖價格。null 表示不是用 MRP 買第一架（初始機、預購獎勵、Ace Pass，或任務後自動獲得第一架）。",
     "repurchase_mrp": "再買同一機種給僚機的價格。Wiki 有寫的用 Wiki；Wiki 沒寫但首購價已知的，依 1/8 規則計算，並在該機的 notes 標明。",
     "gun_ammo": "Elite 難度的機炮彈藥量。gun_infinite_on 列出的難度下為無限。",
-    "special_weapons.unlock_mrp": "null 表示隨機體附帶，不再另計 MRP。"
+    "special_weapons.unlock_mrp": "null 表示隨機體附帶，不再另計 MRP。",
+    "online": "線上模式。type: shop=ZOLL商店／starter=線上初始機／dlc=機體DLC／ace_pass=Premium Ace Pass／unavailable=線上無法使用。zoll 為線上貨幣（暫稱 ZOLL，與劇情 MRP 不同）；unlock_rank 為商店解鎖軍階；summary_zh 為非商店取得說明；sort 為顯示順序。"
   },
   "cross_check": {
     "reddit": "討論串頁面要登入，改以 AC8aircraft_reddit.csv 比對。該表沒有機炮彈藥、FLR、追加購買價。",
@@ -61,7 +62,14 @@
         "arms": 4,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/F-14A Tomcat.jpg"
+      "image": "AC8_aircraft_playable_1280/F-14A Tomcat.jpg",
+      "online": {
+        "type": "dlc",
+        "zoll": null,
+        "unlock_rank": null,
+        "summary_zh": "預購特典，或另購 Playable Aircraft: F-14A DLC",
+        "sort": 31
+      }
     },
     {
       "name": "F-14D Super Tomcat",
@@ -106,7 +114,13 @@
         "arms": 6,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/F-14D Super Tomcat.jpg"
+      "image": "AC8_aircraft_playable_1280/F-14D Super Tomcat.jpg",
+      "online": {
+        "zoll": 7000,
+        "unlock_rank": "上等航空兵",
+        "sort": 4,
+        "type": "shop"
+      }
     },
     {
       "name": "F-15C Eagle",
@@ -151,7 +165,13 @@
         "arms": 5,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/F-15C Eagle.jpg"
+      "image": "AC8_aircraft_playable_1280/F-15C Eagle.jpg",
+      "online": {
+        "zoll": 20000,
+        "unlock_rank": "三等士官長",
+        "sort": 14,
+        "type": "shop"
+      }
     },
     {
       "name": "F-15J Eagle",
@@ -196,7 +216,13 @@
         "arms": 6,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/F-15J Eagle.jpg"
+      "image": "AC8_aircraft_playable_1280/F-15J Eagle.jpg",
+      "online": {
+        "zoll": 23000,
+        "unlock_rank": "二等士官長",
+        "sort": 17,
+        "type": "shop"
+      }
     },
     {
       "name": "F-16C Fighting Falcon",
@@ -241,7 +267,13 @@
         "arms": 5,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/F-16C Fighting Falcon.jpg"
+      "image": "AC8_aircraft_playable_1280/F-16C Fighting Falcon.jpg",
+      "online": {
+        "zoll": 13000,
+        "unlock_rank": "中士",
+        "sort": 11,
+        "type": "shop"
+      }
     },
     {
       "name": "F-22A Raptor",
@@ -286,7 +318,13 @@
         "arms": 7,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/F-22A Raptor.jpg"
+      "image": "AC8_aircraft_playable_1280/F-22A Raptor.jpg",
+      "online": {
+        "zoll": 50000,
+        "unlock_rank": "中尉",
+        "sort": 27,
+        "type": "shop"
+      }
     },
     {
       "name": "FA-36 Game",
@@ -331,7 +369,13 @@
         "arms": 7,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/FA-36 Game.jpg"
+      "image": "AC8_aircraft_playable_1280/FA-36 Game.jpg",
+      "online": {
+        "zoll": 45000,
+        "unlock_rank": "少尉",
+        "sort": 26,
+        "type": "shop"
+      }
     },
     {
       "name": "MiG-21bis Fishbed",
@@ -376,7 +420,13 @@
         "arms": 4,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/MiG-21bis Fishbed.jpg"
+      "image": "AC8_aircraft_playable_1280/MiG-21bis Fishbed.jpg",
+      "online": {
+        "zoll": 3000,
+        "unlock_rank": "二等航空兵",
+        "sort": 1,
+        "type": "shop"
+      }
     },
     {
       "name": "MiG-29A Fulcrum",
@@ -424,7 +474,13 @@
       "image": "AC8_aircraft_playable_1280/MiG-29A Fulcrum.png",
       "notes": [
         "追加購買價 Wiki 沒有直接寫，依各機頁共通的「再買為首購價 1/8」算出。"
-      ]
+      ],
+      "online": {
+        "zoll": 10000,
+        "unlock_rank": "下士",
+        "sort": 9,
+        "type": "shop"
+      }
     },
     {
       "name": "MiG-31B Foxhound",
@@ -469,7 +525,13 @@
         "arms": 4,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/MiG-31B Foxhound.jpg"
+      "image": "AC8_aircraft_playable_1280/MiG-31B Foxhound.jpg",
+      "online": {
+        "zoll": 7000,
+        "unlock_rank": "上等航空兵",
+        "sort": 5,
+        "type": "shop"
+      }
     },
     {
       "name": "Su-57 Felon",
@@ -514,7 +576,13 @@
         "arms": 6,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/Su-57 Felon.jpg"
+      "image": "AC8_aircraft_playable_1280/Su-57 Felon.jpg",
+      "online": {
+        "zoll": 50000,
+        "unlock_rank": "中尉",
+        "sort": 29,
+        "type": "shop"
+      }
     },
     {
       "name": "Typhoon",
@@ -562,7 +630,13 @@
       "image": "AC8_aircraft_playable_1280/Typhoon.jpg",
       "notes": [
         "追加購買價 Wiki 沒有直接寫，依各機頁共通的「再買為首購價 1/8」算出。"
-      ]
+      ],
+      "online": {
+        "zoll": 30000,
+        "unlock_rank": "空軍一等士官長",
+        "sort": 22,
+        "type": "shop"
+      }
     },
     {
       "name": "F-35C Lightning II",
@@ -607,7 +681,13 @@
         "arms": 7,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/F-35C Lightning II.jpg"
+      "image": "AC8_aircraft_playable_1280/F-35C Lightning II.jpg",
+      "online": {
+        "zoll": 50000,
+        "unlock_rank": "中尉",
+        "sort": 28,
+        "type": "shop"
+      }
     },
     {
       "name": "F-4E Phantom II",
@@ -652,7 +732,14 @@
         "arms": 5,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/F-4E Phantom II.jpg"
+      "image": "AC8_aircraft_playable_1280/F-4E Phantom II.jpg",
+      "online": {
+        "type": "starter",
+        "zoll": null,
+        "unlock_rank": null,
+        "summary_zh": "線上初始機",
+        "sort": 30
+      }
     },
     {
       "name": "F/A-18C Hornet",
@@ -697,7 +784,13 @@
         "arms": 4,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/F-A-18C Hornet.jpg"
+      "image": "AC8_aircraft_playable_1280/F-A-18C Hornet.jpg",
+      "online": {
+        "zoll": 5000,
+        "unlock_rank": "一等航空兵",
+        "sort": 3,
+        "type": "shop"
+      }
     },
     {
       "name": "F/A-18E Super Hornet",
@@ -742,7 +835,13 @@
         "arms": 5,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/F-A-18E Super Hornet.webp"
+      "image": "AC8_aircraft_playable_1280/F-A-18E Super Hornet.webp",
+      "online": {
+        "zoll": 23000,
+        "unlock_rank": "二等士官長",
+        "sort": 18,
+        "type": "shop"
+      }
     },
     {
       "name": "F/A-18F Super Hornet",
@@ -787,7 +886,13 @@
         "arms": 7,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/F-A-18F Super Hornet.jpg"
+      "image": "AC8_aircraft_playable_1280/F-A-18F Super Hornet.jpg",
+      "online": {
+        "zoll": 23000,
+        "unlock_rank": "二等士官長",
+        "sort": 19,
+        "type": "shop"
+      }
     },
     {
       "name": "Gripen E",
@@ -832,7 +937,13 @@
         "arms": 6,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/Gripen E.jpg"
+      "image": "AC8_aircraft_playable_1280/Gripen E.jpg",
+      "online": {
+        "zoll": 20000,
+        "unlock_rank": "三等士官長",
+        "sort": 15,
+        "type": "shop"
+      }
     },
     {
       "name": "Mirage 2000-5",
@@ -877,7 +988,13 @@
         "arms": 6,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/Mirage 2000-5.jpg"
+      "image": "AC8_aircraft_playable_1280/Mirage 2000-5.jpg",
+      "online": {
+        "zoll": 10000,
+        "unlock_rank": "下士",
+        "sort": 8,
+        "type": "shop"
+      }
     },
     {
       "name": "Rafale M",
@@ -922,7 +1039,13 @@
         "arms": 7,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/Rafale M.jpg"
+      "image": "AC8_aircraft_playable_1280/Rafale M.jpg",
+      "online": {
+        "zoll": 34000,
+        "unlock_rank": "準尉",
+        "sort": 23,
+        "type": "shop"
+      }
     },
     {
       "name": "Su-33 Flanker-D",
@@ -970,7 +1093,13 @@
       "image": "AC8_aircraft_playable_1280/Su-33 Flanker-D.jpg",
       "notes": [
         "追加購買價 Wiki 沒有直接寫，依各機頁共通的「再買為首購價 1/8」算出。"
-      ]
+      ],
+      "online": {
+        "zoll": 15000,
+        "unlock_rank": "上士",
+        "sort": 12,
+        "type": "shop"
+      }
     },
     {
       "name": "Su-35S Flanker-E",
@@ -1015,7 +1144,13 @@
         "arms": 5,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/Su-35S Flanker-E.jpg"
+      "image": "AC8_aircraft_playable_1280/Su-35S Flanker-E.jpg",
+      "online": {
+        "zoll": 34000,
+        "unlock_rank": "準尉",
+        "sort": 24,
+        "type": "shop"
+      }
     },
     {
       "name": "Su-47 Berkut",
@@ -1060,7 +1195,13 @@
         "arms": 4,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/Su-47 Berkut.jpg"
+      "image": "AC8_aircraft_playable_1280/Su-47 Berkut.jpg",
+      "online": {
+        "zoll": 15000,
+        "unlock_rank": "上士",
+        "sort": 13,
+        "type": "shop"
+      }
     },
     {
       "name": "X-40 Nightmare",
@@ -1105,7 +1246,14 @@
         "arms": 7,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/X-40 Nightmare.png"
+      "image": "AC8_aircraft_playable_1280/X-40 Nightmare.png",
+      "online": {
+        "type": "unavailable",
+        "zoll": null,
+        "unlock_rank": null,
+        "summary_zh": "線上模式無法使用",
+        "sort": 1000
+      }
     },
     {
       "name": "ADFX-02 Morgan -Pixy-",
@@ -1150,7 +1298,14 @@
         "arms": 7,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/ADFX-02 Morgan -Pixy-.jpg"
+      "image": "AC8_aircraft_playable_1280/ADFX-02 Morgan -Pixy-.jpg",
+      "online": {
+        "type": "ace_pass",
+        "zoll": null,
+        "unlock_rank": null,
+        "summary_zh": "第 1 季 Premium Ace Pass／可另購 DLC",
+        "sort": 32
+      }
     },
     {
       "name": "A-10C Thunderbolt II",
@@ -1195,7 +1350,13 @@
         "arms": 4,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/A-10C Thunderbolt II.jpg"
+      "image": "AC8_aircraft_playable_1280/A-10C Thunderbolt II.jpg",
+      "online": {
+        "zoll": 13000,
+        "unlock_rank": "中士",
+        "sort": 10,
+        "type": "shop"
+      }
     },
     {
       "name": "A-6E Intruder",
@@ -1240,7 +1401,13 @@
         "arms": 3,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/A-6E Intruder.jpg"
+      "image": "AC8_aircraft_playable_1280/A-6E Intruder.jpg",
+      "online": {
+        "zoll": 3000,
+        "unlock_rank": "二等航空兵",
+        "sort": 0,
+        "type": "shop"
+      }
     },
     {
       "name": "F-15E Strike Eagle",
@@ -1285,7 +1452,13 @@
         "arms": 7,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/F-15E Strike Eagle.jpg"
+      "image": "AC8_aircraft_playable_1280/F-15E Strike Eagle.jpg",
+      "online": {
+        "zoll": 30000,
+        "unlock_rank": "空軍一等士官長",
+        "sort": 21,
+        "type": "shop"
+      }
     },
     {
       "name": "F-2A",
@@ -1333,7 +1506,13 @@
       "image": "AC8_aircraft_playable_1280/F-2A.jpg",
       "notes": [
         "追加購買價 Wiki 沒有直接寫，依各機頁共通的「再買為首購價 1/8」算出。"
-      ]
+      ],
+      "online": {
+        "zoll": 10000,
+        "unlock_rank": "下士",
+        "sort": 7,
+        "type": "shop"
+      }
     },
     {
       "name": "Su-25SM Frogfoot",
@@ -1378,7 +1557,13 @@
         "arms": 6,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/Su-25SM Frogfoot.jpg"
+      "image": "AC8_aircraft_playable_1280/Su-25SM Frogfoot.jpg",
+      "online": {
+        "zoll": 7000,
+        "unlock_rank": "上等航空兵",
+        "sort": 6,
+        "type": "shop"
+      }
     },
     {
       "name": "Su-34 Fullback",
@@ -1423,7 +1608,13 @@
         "arms": 6,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/Su-34 Fullback.jpg"
+      "image": "AC8_aircraft_playable_1280/Su-34 Fullback.jpg",
+      "online": {
+        "zoll": 20000,
+        "unlock_rank": "三等士官長",
+        "sort": 16,
+        "type": "shop"
+      }
     },
     {
       "name": "EA-18G Growler",
@@ -1468,7 +1659,13 @@
         "arms": 6,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/EA-18G Growler.jpg"
+      "image": "AC8_aircraft_playable_1280/EA-18G Growler.jpg",
+      "online": {
+        "zoll": 30000,
+        "unlock_rank": "空軍一等士官長",
+        "sort": 20,
+        "type": "shop"
+      }
     },
     {
       "name": "EA-36 Barricader",
@@ -1513,7 +1710,13 @@
         "arms": 7,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/EA-36 Barricader.png"
+      "image": "AC8_aircraft_playable_1280/EA-36 Barricader.png",
+      "online": {
+        "zoll": 45000,
+        "unlock_rank": "少尉",
+        "sort": 25,
+        "type": "shop"
+      }
     },
     {
       "name": "EA-6B Prowler",
@@ -1558,7 +1761,13 @@
         "arms": 4,
         "misc": 3
       },
-      "image": "AC8_aircraft_playable_1280/EA-6B Prowler.jpg"
+      "image": "AC8_aircraft_playable_1280/EA-6B Prowler.jpg",
+      "online": {
+        "zoll": 5000,
+        "unlock_rank": "一等航空兵",
+        "sort": 2,
+        "type": "shop"
+      }
     }
   ]
 }
