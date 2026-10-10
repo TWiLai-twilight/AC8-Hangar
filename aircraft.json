@@ -1,7 +1,7 @@
 {
   "game": "ACE COMBAT 8: WINGS OF THEVE",
   "scope": "playable aircraft only",
-  "compiled": "2026-10-09",
+  "compiled": "2026-10-10",
   "sources": [
     "https://acecombat.wiki.gg/wiki/Ace_Combat_8:_Wings_of_Theve/Aircraft",
     "https://al-gest.com/acecombat8/acecombat8-aircraft",
@@ -12,7 +12,8 @@
     "repurchase_mrp": "再買同一機種給僚機的價格。Wiki 有寫的用 Wiki；Wiki 沒寫但首購價已知的，依 1/8 規則計算，並在該機的 notes 標明。",
     "gun_ammo": "Elite 難度的機炮彈藥量。gun_infinite_on 列出的難度下為無限。",
     "special_weapons.unlock_mrp": "null 表示隨機體附帶，不再另計 MRP。",
-    "online": "線上模式。type: shop=ZOLL商店／starter=線上初始機／dlc=機體DLC／ace_pass=Premium Ace Pass／unavailable=線上無法使用。zoll 為線上貨幣（暫稱 ZOLL，與劇情 MRP 不同）；unlock_rank 為商店解鎖軍階；summary_zh 為非商店取得說明；sort 為顯示順序。"
+    "online": "線上模式。type: shop=ZOLL商店／starter=線上初始機／dlc=機體DLC／ace_pass=Premium Ace Pass／unavailable=線上無法使用。zoll 為線上貨幣（暫稱 ZOLL，與劇情 MRP 不同）；unlock_rank 為商店解鎖軍階；summary_zh 為非商店取得說明；sort 為顯示順序。",
+    "stats": "機體六維（對空／對地／速度／機動／安定／防禦），數值來自遊戲檔 dump（ac8-database / Steam build 25201480），範圍約 0–100。"
   },
   "cross_check": {
     "reddit": "討論串頁面要登入，改以 AC8aircraft_reddit.csv 比對。該表沒有機炮彈藥、FLR、追加購買價。",
@@ -69,6 +70,14 @@
         "unlock_rank": null,
         "summary_zh": "預購特典，或另購 Playable Aircraft: F-14A DLC",
         "sort": 31
+      },
+      "stats": {
+        "air_to_air": 58,
+        "air_to_ground": 22,
+        "speed": 59,
+        "mobility": 53,
+        "stability": 26,
+        "defense": 43
       }
     },
     {
@@ -120,6 +129,14 @@
         "unlock_rank": "上等航空兵",
         "sort": 4,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 63,
+        "air_to_ground": 27,
+        "speed": 64,
+        "mobility": 58,
+        "stability": 34,
+        "defense": 45
       }
     },
     {
@@ -171,6 +188,14 @@
         "unlock_rank": "三等士官長",
         "sort": 14,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 82,
+        "air_to_ground": 40,
+        "speed": 76,
+        "mobility": 75,
+        "stability": 30,
+        "defense": 46
       }
     },
     {
@@ -222,6 +247,14 @@
         "unlock_rank": "二等士官長",
         "sort": 17,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 78,
+        "air_to_ground": 42,
+        "speed": 76,
+        "mobility": 75,
+        "stability": 30,
+        "defense": 46
       }
     },
     {
@@ -273,6 +306,14 @@
         "unlock_rank": "中士",
         "sort": 11,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 73,
+        "air_to_ground": 37,
+        "speed": 72,
+        "mobility": 64,
+        "stability": 20,
+        "defense": 47
       }
     },
     {
@@ -324,6 +365,14 @@
         "unlock_rank": "中尉",
         "sort": 27,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 88,
+        "air_to_ground": 52,
+        "speed": 84,
+        "mobility": 87,
+        "stability": 34,
+        "defense": 68
       }
     },
     {
@@ -375,6 +424,14 @@
         "unlock_rank": "少尉",
         "sort": 26,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 88,
+        "air_to_ground": 52,
+        "speed": 86,
+        "mobility": 87,
+        "stability": 27,
+        "defense": 62
       }
     },
     {
@@ -426,6 +483,14 @@
         "unlock_rank": "二等航空兵",
         "sort": 1,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 56,
+        "air_to_ground": 18,
+        "speed": 56,
+        "mobility": 45,
+        "stability": 19,
+        "defense": 44
       }
     },
     {
@@ -480,6 +545,14 @@
         "unlock_rank": "下士",
         "sort": 9,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 68,
+        "air_to_ground": 32,
+        "speed": 69,
+        "mobility": 64,
+        "stability": 25,
+        "defense": 45
       }
     },
     {
@@ -531,6 +604,14 @@
         "unlock_rank": "上等航空兵",
         "sort": 5,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 72,
+        "air_to_ground": 30,
+        "speed": 89,
+        "mobility": 58,
+        "stability": 36,
+        "defense": 48
       }
     },
     {
@@ -582,6 +663,14 @@
         "unlock_rank": "中尉",
         "sort": 29,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 88,
+        "air_to_ground": 52,
+        "speed": 83,
+        "mobility": 89,
+        "stability": 20,
+        "defense": 64
       }
     },
     {
@@ -636,6 +725,14 @@
         "unlock_rank": "空軍一等士官長",
         "sort": 22,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 83,
+        "air_to_ground": 47,
+        "speed": 81,
+        "mobility": 81,
+        "stability": 25,
+        "defense": 45
       }
     },
     {
@@ -687,6 +784,14 @@
         "unlock_rank": "中尉",
         "sort": 28,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 68,
+        "air_to_ground": 71,
+        "speed": 83,
+        "mobility": 69,
+        "stability": 51,
+        "defense": 70
       }
     },
     {
@@ -739,6 +844,14 @@
         "unlock_rank": null,
         "summary_zh": "線上初始機",
         "sort": 30
+      },
+      "stats": {
+        "air_to_air": 36,
+        "air_to_ground": 36,
+        "speed": 56,
+        "mobility": 32,
+        "stability": 33,
+        "defense": 47
       }
     },
     {
@@ -790,6 +903,14 @@
         "unlock_rank": "一等航空兵",
         "sort": 3,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 38,
+        "air_to_ground": 41,
+        "speed": 61,
+        "mobility": 40,
+        "stability": 42,
+        "defense": 41
       }
     },
     {
@@ -841,6 +962,14 @@
         "unlock_rank": "二等士官長",
         "sort": 18,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 61,
+        "air_to_ground": 58,
+        "speed": 75,
+        "mobility": 59,
+        "stability": 49,
+        "defense": 44
       }
     },
     {
@@ -892,6 +1021,14 @@
         "unlock_rank": "二等士官長",
         "sort": 19,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 58,
+        "air_to_ground": 61,
+        "speed": 75,
+        "mobility": 59,
+        "stability": 49,
+        "defense": 44
       }
     },
     {
@@ -943,6 +1080,14 @@
         "unlock_rank": "三等士官長",
         "sort": 15,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 61,
+        "air_to_ground": 58,
+        "speed": 78,
+        "mobility": 59,
+        "stability": 37,
+        "defense": 42
       }
     },
     {
@@ -994,6 +1139,14 @@
         "unlock_rank": "下士",
         "sort": 8,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 48,
+        "air_to_ground": 51,
+        "speed": 70,
+        "mobility": 49,
+        "stability": 45,
+        "defense": 43
       }
     },
     {
@@ -1045,6 +1198,14 @@
         "unlock_rank": "準尉",
         "sort": 23,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 66,
+        "air_to_ground": 63,
+        "speed": 81,
+        "mobility": 64,
+        "stability": 48,
+        "defense": 45
       }
     },
     {
@@ -1099,6 +1260,14 @@
         "unlock_rank": "上士",
         "sort": 12,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 56,
+        "air_to_ground": 53,
+        "speed": 72,
+        "mobility": 54,
+        "stability": 35,
+        "defense": 50
       }
     },
     {
@@ -1150,6 +1319,14 @@
         "unlock_rank": "準尉",
         "sort": 24,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 66,
+        "air_to_ground": 63,
+        "speed": 80,
+        "mobility": 66,
+        "stability": 43,
+        "defense": 48
       }
     },
     {
@@ -1201,6 +1378,14 @@
         "unlock_rank": "上士",
         "sort": 13,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 56,
+        "air_to_ground": 53,
+        "speed": 73,
+        "mobility": 56,
+        "stability": 32,
+        "defense": 50
       }
     },
     {
@@ -1253,6 +1438,14 @@
         "unlock_rank": null,
         "summary_zh": "線上模式無法使用",
         "sort": 1000
+      },
+      "stats": {
+        "air_to_air": 81,
+        "air_to_ground": 78,
+        "speed": 87,
+        "mobility": 74,
+        "stability": 46,
+        "defense": 70
       }
     },
     {
@@ -1305,6 +1498,14 @@
         "unlock_rank": null,
         "summary_zh": "第 1 季 Premium Ace Pass／可另購 DLC",
         "sort": 32
+      },
+      "stats": {
+        "air_to_air": 75,
+        "air_to_ground": 75,
+        "speed": 83,
+        "mobility": 70,
+        "stability": 51,
+        "defense": 51
       }
     },
     {
@@ -1356,6 +1557,14 @@
         "unlock_rank": "中士",
         "sort": 10,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 35,
+        "air_to_ground": 77,
+        "speed": 33,
+        "mobility": 27,
+        "stability": 68,
+        "defense": 53
       }
     },
     {
@@ -1407,6 +1616,14 @@
         "unlock_rank": "二等航空兵",
         "sort": 0,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 15,
+        "air_to_ground": 57,
+        "speed": 25,
+        "mobility": 10,
+        "stability": 77,
+        "defense": 51
       }
     },
     {
@@ -1458,6 +1675,14 @@
         "unlock_rank": "空軍一等士官長",
         "sort": 21,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 47,
+        "air_to_ground": 83,
+        "speed": 80,
+        "mobility": 45,
+        "stability": 70,
+        "defense": 52
       }
     },
     {
@@ -1512,6 +1737,14 @@
         "unlock_rank": "下士",
         "sort": 7,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 32,
+        "air_to_ground": 68,
+        "speed": 68,
+        "mobility": 30,
+        "stability": 41,
+        "defense": 51
       }
     },
     {
@@ -1563,6 +1796,14 @@
         "unlock_rank": "上等航空兵",
         "sort": 6,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 28,
+        "air_to_ground": 66,
+        "speed": 29,
+        "mobility": 23,
+        "stability": 63,
+        "defense": 49
       }
     },
     {
@@ -1614,6 +1855,14 @@
         "unlock_rank": "三等士官長",
         "sort": 16,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 42,
+        "air_to_ground": 78,
+        "speed": 74,
+        "mobility": 41,
+        "stability": 53,
+        "defense": 53
       }
     },
     {
@@ -1665,6 +1914,14 @@
         "unlock_rank": "空軍一等士官長",
         "sort": 20,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 67,
+        "air_to_ground": 64,
+        "speed": 80,
+        "mobility": 64,
+        "stability": 39,
+        "defense": 46
       }
     },
     {
@@ -1716,6 +1973,14 @@
         "unlock_rank": "少尉",
         "sort": 25,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 72,
+        "air_to_ground": 69,
+        "speed": 83,
+        "mobility": 67,
+        "stability": 47,
+        "defense": 69
       }
     },
     {
@@ -1767,6 +2032,14 @@
         "unlock_rank": "一等航空兵",
         "sort": 2,
         "type": "shop"
+      },
+      "stats": {
+        "air_to_air": 44,
+        "air_to_ground": 47,
+        "speed": 29,
+        "mobility": 42,
+        "stability": 63,
+        "defense": 45
       }
     }
   ]
